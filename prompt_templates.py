@@ -77,7 +77,7 @@ Statements:'''
 
 
 
-    FAITHBENCH_THREEWAY_CLASSIFICATION_WITH_ARTICLE_EXAMPLES = '''Your task is to evaluate a summary and determine whether it contains hallucinations, such as claims, details, or contradictions that are not supported by the source article.
+    BENCHMARKZ_THREEWAY_CLASSIFICATION_WITH_ARTICLE_EXAMPLES = '''Your task is to evaluate a summary and determine whether it contains hallucinations, such as claims, details, or contradictions that are not supported by the source article.
 
 You will be provided with the source article and annotated examples of summaries of the article. These examples contain hallucinations independently identified by human annotators, categorized as Benign, Unwanted, or Questionable, along with brief explanations. Use these annotated examples to guide your analysis.
 
@@ -116,7 +116,7 @@ Do not include any additional text after the final classification.'''
 
 
 
-    FAITHBENCH_BINARY_CLASSIFICATION_WITH_ARTICLE_EXAMPLES = '''Your task is to evaluate a summary and determine whether it contains hallucinations, such as claims, details, or contradictions that are not supported by the source article.
+    BENCHMARKZ_BINARY_CLASSIFICATION_WITH_ARTICLE_EXAMPLES = '''Your task is to evaluate a summary and determine whether it contains hallucinations, such as claims, details, or contradictions that are not supported by the source article.
 
 You will be provided with the source article and annotated examples of summaries of the article. These examples contain hallucinations independently identified by human annotators, categorized as Benign, Unwanted, or Questionable, along with brief explanations. Use these annotated examples to guide your analysis.
 

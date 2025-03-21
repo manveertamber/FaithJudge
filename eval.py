@@ -299,7 +299,7 @@ def evaluate_summaries(summaries, eval_data, output_dir, client, model_identifie
 def main():
     parser = argparse.ArgumentParser(description='Evaluate summaries for hallucinations for a single model.')
     parser.add_argument('--base_dir', type=str, default='generated_summaries', help='Directory containing generated summaries.')
-    parser.add_argument('--jsonl_file', type=str, default='faithbench_summaries_by_source.jsonl', help='Path to the evaluation JSONL file.')
+    parser.add_argument('--jsonl_file', type=str, default='benchmarkz_summaries_by_source.jsonl', help='Path to the evaluation JSONL file.')
     parser.add_argument('--output_dir', type=str, default='eval_results', help='Directory to save evaluation results.')
     parser.add_argument('--model', type=str, required=True, help='Model identifier in the format organization/model.')
     args = parser.parse_args()

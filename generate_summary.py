@@ -15,7 +15,7 @@ from google.genai import types, errors
 import anthropic
 import glob
 
-INPUT_FILE = "faithbench_summaries_by_source.jsonl"
+INPUT_FILE = "benchmarkz_summaries_by_source.jsonl"
 
 system_prompt = (
     "You must respond based on the information provided in the passage. Do not incorporate any external knowledge or details beyond what is given."
